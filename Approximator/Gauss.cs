@@ -10,9 +10,6 @@ namespace Gauss
     {
         public double[] Xvec;
         private double[][] Matr;
-        private double[] BVec;
-        private double[,] Matr_in;
-        private double[] BVec_in;
         private int n, m; //n - rows, m - cols
         private double Eps;
 
@@ -20,18 +17,7 @@ namespace Gauss
         {
             n = matr.Length;
             m = matr[0].Length - 1;
-
-
-            //Matr = matr; Matr_in = (double[,])Matr.Clone();
-            //BVec = bvec; BVec_in = (double[])BVec.Clone();
-            Matr = matr;
-            /*
-            Matr = new double[n][];
-            for (int i = 0; i < n; i++)
-                for (int j = 0; j < m; j++)
-                    Matr[i][j] = matr[i][j];
-                    */
-            
+            Matr = matr;            
             Xvec = new double[m];
             Eps = eps;
             Solve();
@@ -81,7 +67,6 @@ namespace Gauss
                 ++row;
             }
 
-            //ans.assign(m, 0);
             for (int i = 0; i < Xvec.Length; i++)
                 Xvec[i] = 0;
             for (int i = 0; i < m; ++i)
