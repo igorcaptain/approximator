@@ -1,0 +1,10 @@
+F:\Visual Studio\CS\Approximator\Approximator\bin\Release\Approximator.exe.config
+F:\Visual Studio\CS\Approximator\Approximator\bin\Release\Approximator.exe
+F:\Visual Studio\CS\Approximator\Approximator\bin\Release\Approximator.pdb
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.csprojAssemblyReference.cache
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.MainForm.resources
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.Properties.Resources.resources
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.csproj.GenerateResource.cache
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.csproj.CoreCompileInputs.cache
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.exe
+F:\Visual Studio\CS\Approximator\Approximator\obj\Release\Approximator.pdb
